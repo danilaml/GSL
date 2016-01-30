@@ -38,7 +38,7 @@ install:
     if [[ "$CLANG" == 1 && "${TRAVIS_OS_NAME}" == "linux" && "${STDLIB}" != "libstdc++" ]]; then
       if [[ "${COMPILER}" == "clang++-3.5" ]]; then LLVM_VERSION="3.5.2"; fi
       if [[ "${COMPILER}" == "clang++-3.6" ]]; then LLVM_VERSION="3.6.2"; fi
-      if [[ "${COMPILER}" == "clang++-3.7" ]]; then LLVM_VERSION="3.7.0"; fi
+      if [[ "${COMPILER}" == "clang++-3.7" ]]; then LLVM_VERSION="3.7.1"; fi
       LLVM_URL="http://llvm.org/releases/${LLVM_VERSION}/llvm-${LLVM_VERSION}.src.tar.xz"
       LIBCXX_URL="http://llvm.org/releases/${LLVM_VERSION}/libcxx-${LLVM_VERSION}.src.tar.xz"
       LIBCXXABI_URL="http://llvm.org/releases/${LLVM_VERSION}/libcxxabi-${LLVM_VERSION}.src.tar.xz"
