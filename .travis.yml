@@ -7,7 +7,7 @@ matrix:
   include:
     - env: COMPILER=clang++-3.7 BUILD_TYPE=Debug CLANG=1
       compiler: clang
-      addons: &clang37
+      addons: &clang37 #test
         apt:
           packages:
             - clang-3.7
